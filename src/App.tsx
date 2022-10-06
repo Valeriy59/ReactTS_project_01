@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Accordion from './components/Accordion';
@@ -8,18 +8,24 @@ import UncontrolledAccordion from "./components/UncontrolledAccordion";
 import UncontrolledRating from "./components/UncontrolledRating";
 
 function App() {
+
+    let [ratingValue, setRatingValue] = useState<0|1|2|3|4|5>(0)
+    let [accordionCollapsed, setAccordionCollapsed] = useState<boolean>(false)
+
     return (
         <div>
             <AppTitle/>
-            <Rating value={0}/>
-            <Accordion titleValue={"Menu"} collapsed={true}/>
-            <Accordion titleValue={"Users"} collapsed={false}/>
-            <Rating value={1}/>
-            <Rating value={2}/>
-            <Rating value={3}/>
-            <Rating value={4}/>
-            <Rating value={5}/>
+            <h2>Controlled components</h2>
+            <Rating value={ratingValue} onClick={setRatingValue}/>
+            <Accordion titleValue={"Menu"} collapsed={accordionCollapsed}  onClick={setAccordionCollapsed}/>
+            <Accordion titleValue={"Users"} collapsed={accordionCollapsed} onClick={setAccordionCollapsed}/>
+            <Rating value={1} onClick={setRatingValue}/>
+            <Rating value={2} onClick={setRatingValue}/>
+            <Rating value={3} onClick={setRatingValue}/>
+            <Rating value={4} onClick={setRatingValue}/>
+            <Rating value={5} onClick={setRatingValue}/>
             <OnOff />
+            <h2>Uncontrolled components</h2>
             <UncontrolledAccordion titleValue={"Menu"} />
             <UncontrolledAccordion titleValue={"Users"} />
             <UncontrolledRating />
