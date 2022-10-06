@@ -1,11 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 
-type AccordionPropsType = {
+type UncontrolledAccordionPropsType = {
     titleValue: string;
-    collapsed: boolean;
+    // collapsed: boolean;
 };
 
-function Accordion(props: AccordionPropsType) {
+function UncontrolledAccordion(props: UncontrolledAccordionPropsType) {
     // if (props.collapsed) {
     //     return (
     //         <div>
@@ -13,10 +13,13 @@ function Accordion(props: AccordionPropsType) {
     //         </div>
     //     );
     // } else {
+
+    let [collapsed, setCollapsed] = useState(false)
         return (
             <div>
                 <AccordionTitle title={props.titleValue}/>
-                {!props.collapsed && <AccordionBody/>}
+                <button onClick = {() => collapsed ? setCollapsed(false) : setCollapsed(true)}>TOGGLE</button>
+                {!collapsed && <AccordionBody/>}
             </div>
         );
     }
@@ -40,4 +43,4 @@ function AccordionBody() {
     );
 }
 
-export default Accordion;
+export default UncontrolledAccordion;
