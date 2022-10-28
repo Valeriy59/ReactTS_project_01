@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0547de-6584-4d13-85a7-c2b8e489a0f7" name="Changes" comment="Uncontrolled components">
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UncotrolledAccordion.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/input.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion.tsx" afterDir="false" />
+    <list default="true" id="fe0547de-6584-4d13-85a7-c2b8e489a0f7" name="Changes" comment="12 - Uncontrolled input&#10;13 - Controlled input, FLUX&#10;14 - Accordion with items inside props">
+      <change afterPath="$PROJECT_DIR$/src/stories/Select.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Select.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Select.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,6 +30,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EqP87oSmGgNdl9A683tFd3nufz" />
   <component name="ProjectViewState">
@@ -44,11 +45,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/IT-incubator/ReactTS_project_01/ReactTS_project_01",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "ts.external.directory.path": "D:\\IT-incubator\\ReactTS_project_01\\ReactTS_project_01\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -97,7 +100,10 @@
       <workItem from="1666025883126" duration="2157000" />
       <workItem from="1666268808233" duration="800000" />
       <workItem from="1666336587193" duration="22000" />
-      <workItem from="1666345717078" duration="6924000" />
+      <workItem from="1666345717078" duration="7059000" />
+      <workItem from="1666810673716" duration="3925000" />
+      <workItem from="1666886868239" duration="125000" />
+      <workItem from="1666949614202" duration="6934000" />
     </task>
     <task id="LOCAL-00001" summary="Uncontrolled components">
       <created>1665048525848</created>
@@ -113,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665057034396</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="12 - Uncontrolled input&#10;13 - Controlled input, FLUX&#10;14 - Accordion with items inside props">
+      <created>1666355746092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666355746092</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Uncontrolled components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uncontrolled components" />
+    <MESSAGE value="12 - Uncontrolled input&#10;13 - Controlled input, FLUX&#10;14 - Accordion with items inside props" />
+    <option name="LAST_COMMIT_MESSAGE" value="12 - Uncontrolled input&#10;13 - Controlled input, FLUX&#10;14 - Accordion with items inside props" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

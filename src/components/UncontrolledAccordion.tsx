@@ -5,6 +5,12 @@ type UncontrolledAccordionPropsType = {
     // collapsed: boolean;
 };
 
+
+
+const reducer = (state, action) => {
+    return state
+}
+
 function UncontrolledAccordion(props: UncontrolledAccordionPropsType) {
 
     let [collapsed, setCollapsed] = useState(false)
