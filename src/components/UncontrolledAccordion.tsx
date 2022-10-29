@@ -1,24 +1,17 @@
-import React, {useState} from "react";
+import React, {useReducer} from "react";
+import {reducer, TOGGLE_CONSTANT} from "./reducer";
 
 type UncontrolledAccordionPropsType = {
     titleValue: string;
-    // collapsed: boolean;
 };
-
-
-
-const reducer = (state, action) => {
-    return state
-}
 
 function UncontrolledAccordion(props: UncontrolledAccordionPropsType) {
 
-    let [collapsed, setCollapsed] = useState(false)
+    let [state, dispatch] = useReducer(reducer, {collapsed: false})
         return (
             <div>
-                <AccordionTitle title={props.titleValue} onClick={()=> {setCollapsed(!collapsed)}}/>
-                {/*<button onClick = {() => collapsed ? setCollapsed(false) : setCollapsed(true)}>TOGGLE</button>*/}
-                {!collapsed && <AccordionBody/>}
+                <AccordionTitle title={props.titleValue} onClick={()=> {dispatch({type: TOGGLE_CONSTANT})}}/>
+                {!state.collapsed && <AccordionBody/>}
             </div>
         );
     }
