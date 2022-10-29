@@ -17,8 +17,8 @@ function App() {
             <AppTitle/>
             <h2>Controlled components</h2>
             <Rating value={ratingValue} onClick={setRatingValue}/>
-            <Accordion titleValue={"Menu"} collapsed={accordionCollapsed}  onClick={setAccordionCollapsed}/>
-            <Accordion titleValue={"Users"} collapsed={accordionCollapsed} onClick={setAccordionCollapsed}/>
+            {/*<Accordion titleValue={"Menu"} collapsed={accordionCollapsed}  onClick={setAccordionCollapsed}/>*/}
+            {/*<Accordion titleValue={"Users"} collapsed={accordionCollapsed} onClick={setAccordionCollapsed}/>*/}
             <Rating value={1} onClick={setRatingValue}/>
             <Rating value={2} onClick={setRatingValue}/>
             <Rating value={3} onClick={setRatingValue}/>

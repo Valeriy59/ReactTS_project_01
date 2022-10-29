@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0547de-6584-4d13-85a7-c2b8e489a0f7" name="Changes" comment="15 -Super Select component">
-      <change afterPath="$PROJECT_DIR$/src/components/reducer.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/reducer.tsx" afterDir="false" />
+    <list default="true" id="fe0547de-6584-4d13-85a7-c2b8e489a0f7" name="Changes" comment="16 - useReducer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ReactMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ReactMemo.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -107,7 +106,7 @@
       <workItem from="1666810673716" duration="3925000" />
       <workItem from="1666886868239" duration="125000" />
       <workItem from="1666949614202" duration="9985000" />
-      <workItem from="1667054848904" duration="607000" />
+      <workItem from="1667054848904" duration="3768000" />
     </task>
     <task id="LOCAL-00001" summary="Uncontrolled components">
       <created>1665048525848</created>
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666958108773</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="16 - useReducer">
+      <created>1667055671116</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667055671116</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +171,8 @@
     <MESSAGE value="Uncontrolled components" />
     <MESSAGE value="12 - Uncontrolled input&#10;13 - Controlled input, FLUX&#10;14 - Accordion with items inside props" />
     <MESSAGE value="15 -Super Select component" />
-    <option name="LAST_COMMIT_MESSAGE" value="15 -Super Select component" />
+    <MESSAGE value="16 - useReducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="16 - useReducer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
