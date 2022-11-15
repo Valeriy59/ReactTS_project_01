@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0547de-6584-4d13-85a7-c2b8e489a0f7" name="Changes" comment="16 - useReducer">
+    <list default="true" id="fe0547de-6584-4d13-85a7-c2b8e489a0f7" name="Changes" comment="17 - React.memo">
+      <change afterPath="$PROJECT_DIR$/src/components/UseMemo.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/ReactMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ReactMemo.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ReactMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReactMemo.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IT-incubator/ReactTS_project_01/ReactTS_project_01/src/components&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IT-incubator/JS-lessons&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -57,11 +57,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT-incubator\ReactTS_project_01\ReactTS_project_01\src\stories" />
       <recent name="D:\IT-incubator\ReactTS_project_01\ReactTS_project_01\src\components" />
       <recent name="D:\IT-incubator\ReactTS_project_01\ReactTS_project_01\src\components\OnOff" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="D:\IT-incubator\ReactTS_project_01\ReactTS_project_01\src\components\reducer.tsx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IT-incubator\ReactTS_project_01\ReactTS_project_01\src\components" />
     </key>
   </component>
   <component name="RunManager">
@@ -106,7 +110,11 @@
       <workItem from="1666810673716" duration="3925000" />
       <workItem from="1666886868239" duration="125000" />
       <workItem from="1666949614202" duration="9985000" />
-      <workItem from="1667054848904" duration="3768000" />
+      <workItem from="1667054848904" duration="5037000" />
+      <workItem from="1667123986590" duration="812000" />
+      <workItem from="1667806812890" duration="4750000" />
+      <workItem from="1667822421583" duration="600000" />
+      <workItem from="1668112859526" duration="3045000" />
     </task>
     <task id="LOCAL-00001" summary="Uncontrolled components">
       <created>1665048525848</created>
@@ -150,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667055671116</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="17 - React.memo">
+      <created>1667059250796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667059250796</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +187,8 @@
     <MESSAGE value="12 - Uncontrolled input&#10;13 - Controlled input, FLUX&#10;14 - Accordion with items inside props" />
     <MESSAGE value="15 -Super Select component" />
     <MESSAGE value="16 - useReducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="16 - useReducer" />
+    <MESSAGE value="17 - React.memo" />
+    <option name="LAST_COMMIT_MESSAGE" value="17 - React.memo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
