@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0547de-6584-4d13-85a7-c2b8e489a0f7" name="Changes" comment="20 - super UseState">
-      <change afterPath="$PROJECT_DIR$/src/components/UseEffect.stories.tsx" afterDir="false" />
+    <list default="true" id="fe0547de-6584-4d13-85a7-c2b8e489a0f7" name="Changes" comment="21 - useEffect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UseEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UseEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <workItem from="1667806812890" duration="4750000" />
       <workItem from="1667822421583" duration="600000" />
       <workItem from="1668112859526" duration="3045000" />
-      <workItem from="1668521091129" duration="3661000" />
+      <workItem from="1668521091129" duration="4846000" />
     </task>
     <task id="LOCAL-00001" summary="Uncontrolled components">
       <created>1665048525848</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668523364536</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="21 - useEffect">
+      <created>1668524998489</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668524998489</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +212,8 @@
     <MESSAGE value="17 - React.memo" />
     <MESSAGE value="18 - UseMemo" />
     <MESSAGE value="20 - super UseState" />
-    <option name="LAST_COMMIT_MESSAGE" value="20 - super UseState" />
+    <MESSAGE value="21 - useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="21 - useEffect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
