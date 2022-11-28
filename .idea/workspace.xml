@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0547de-6584-4d13-85a7-c2b8e489a0f7" name="Changes" comment="21 - useEffect">
+    <list default="true" id="fe0547de-6584-4d13-85a7-c2b8e489a0f7" name="Changes" comment="23 - useEffect - clock component">
+      <change afterPath="$PROJECT_DIR$/src/components/AnalogClockView.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AnalogClockView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Clock.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Clock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DigitalClockView.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UseEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UseEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IT-incubator/ReactTS_project_01/ReactTS_project_01/src/components",
+    "last_opened_file_path": "D:/IT-incubator/06 ReactTS-kabzda-theory/ReactTS_project_01",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,7 +54,7 @@
     "nodejs.jest.jest_package": "D:/IT-incubator/ReactTS_project_01/ReactTS_project_01/node_modules/react-scripts",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "D:\\IT-incubator\\ReactTS_project_01\\ReactTS_project_01\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "D:\\IT-incubator\\06 ReactTS-kabzda-theory\\ReactTS_project_01\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,6 +65,8 @@
       <recent name="D:\IT-incubator\ReactTS_project_01\ReactTS_project_01\src\components\OnOff" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="D:\IT-incubator\06 ReactTS-kabzda-theory\ReactTS_project_01\src\components\AnalogClockView.tsx" />
+      <recent name="D:\IT-incubator\06 ReactTS-kabzda-theory\ReactTS_project_01\src\components\DigitalClockView.tsx" />
       <recent name="D:\IT-incubator\ReactTS_project_01\ReactTS_project_01\src\components\reducer.tsx" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -115,7 +121,9 @@
       <workItem from="1667806812890" duration="4750000" />
       <workItem from="1667822421583" duration="600000" />
       <workItem from="1668112859526" duration="3045000" />
-      <workItem from="1668521091129" duration="4846000" />
+      <workItem from="1668521091129" duration="6053000" />
+      <workItem from="1668965892631" duration="2670000" />
+      <workItem from="1669637467352" duration="2766000" />
     </task>
     <task id="LOCAL-00001" summary="Uncontrolled components">
       <created>1665048525848</created>
@@ -187,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668524998489</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="22 - useEffect - setTimeout, setInterval">
+      <created>1668526124214</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668526124214</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +228,8 @@
     <MESSAGE value="18 - UseMemo" />
     <MESSAGE value="20 - super UseState" />
     <MESSAGE value="21 - useEffect" />
-    <option name="LAST_COMMIT_MESSAGE" value="21 - useEffect" />
+    <MESSAGE value="22 - useEffect - setTimeout, setInterval" />
+    <option name="LAST_COMMIT_MESSAGE" value="22 - useEffect - setTimeout, setInterval" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
